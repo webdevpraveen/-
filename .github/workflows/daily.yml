@@ -24,4 +24,4 @@ jobs:
 
           git add .
           git commit -m "Auto update $(date)" || exit 0
-          git push https://webdevpraveen:${{ secrets.PAT }}@github.com/webdevpraveen/YOUR-REPO-NAME.git
+          git push https://webdevpraveen:${{ secrets.PAT }}@github.com/webdevpraveen/xyz.git
